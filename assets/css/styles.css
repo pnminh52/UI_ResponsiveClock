@@ -117,6 +117,7 @@ a {
   justify-content: center;
   align-items: center;
   transition: 0.4s;
+  border: 2px solid var(--first-color);
 }
 
 .clock__content {
@@ -166,6 +167,7 @@ a {
   border-radius: 50%;
   border: 2px solid var(--body-color);
   z-index: var(--z-tooltip);
+  transition: 0.4s;
 }
 
 .clock__hour,
